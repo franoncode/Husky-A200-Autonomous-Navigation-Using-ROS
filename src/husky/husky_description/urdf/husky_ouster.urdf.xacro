@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="husky_custom">
+  <!-- Incluir la definición del sensor Ouster OS1 desde el paquete ouster_description -->
+  <!-- <xacro:include filename="$(find ouster_description)/urdf/OS1-64.urdf.xacro" /> -->
+  
+  <!-- Instanciar el sensor Ouster OS1-64, adjuntándolo al Husky -->
+  <!-- Posición y orientación del sensor respecto al Husky -->
+  
+  <!-- <xacro:OS1-64 parent="top_plate_link">
+    <origin xyz="0.0 0.0 0.40" rpy="0 0 0" />
+  </xacro:OS1-64> -->
+  
+    
+  <xacro:include filename="$(find ouster_arvc)/urdf/os1_128.urdf.xacro" />
+  <!-- Instanciar el sensor Ouster OS1-64, adjuntándolo al Husky -->
+  <xacro:OS1-128 parent="top_plate_link">
+    <origin xyz="0.0 0.0 0.40" rpy="0 0 0" />
+  </xacro:OS1-128>
+  
+
+  <!-- <link name="os_lidar"/>
+  <joint name="os_lidar_joint" type="fixed">
+    <origin xyz="0.18 0.0 0.10" rpy="0 0 0"/>
+    <parent link="top_plate_link"/>
+    <child link="os_lidar"/>
+  </joint> -->
+
+</robot>
+
+

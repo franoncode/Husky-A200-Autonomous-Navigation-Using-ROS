@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="test_urdf">
+
+  
+  <!-- Base Footprint -->
+  <link name="base_link" />
+  <gazebo>
+    <static>True</static>
+    <plugin name="gz_world_tf_publisher" filename="libgazebo_ros_world_tf.so"/>
+  </gazebo>
+
+</robot>

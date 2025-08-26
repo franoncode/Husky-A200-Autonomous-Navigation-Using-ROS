@@ -1,12 +1,11 @@
-# catkin build artifacts
 build/
 devel/
+devel_isolated/
 install/
+install_isolated/
 log/
-
-# Python cache
+logs/
 *.pyc
 __pycache__/
-
-# VSCode config
 .vscode/
+

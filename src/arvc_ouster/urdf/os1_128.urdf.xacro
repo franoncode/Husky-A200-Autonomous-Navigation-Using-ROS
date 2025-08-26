@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="ouster_sensor">
+
+  <xacro:include filename="$(find arvc_ouster)/urdf/OS1_128_MACRO.urdf.xacro"/>
+  <xacro:property name="PI"  value="3.1415926535897931"/>
+  
+  <!-- Base Footprint -->
+  <link name="base_link" />
+  <!-- <gazebo>
+    <static>True</static>
+    <plugin name="gz_world_tf_publisher" filename="libarvc_gazebo_ros_world_tf.so">
+      <target_frame>os1_sensor</target_frame>
+    </plugin>
+  </gazebo> -->
+
+  <xacro:OS1-128 
+    parent       = "base_link"  
+    name         = "os1_sensor" 
+    topic_points = "/os1/pointCloud"
+    topic_imu    = "/os1/imu"
+    hz           = "10" 
+    lasers       = "128" 
+    samples      = "512" 
+    min_range    = "0.05" 
+    max_range    = "30.0" 
+    noise        = "0.008" 
+    min_angle    = "-${PI}" 
+    max_angle    = "${PI}" 
+    lidar_link   = "os1_lidar" 
+    imu_link     = "os1_imu" 
+    vfov_min     = "-${PI/8}" 
+    vfov_max     = "${PI/8}"
+    static       = "true"
+    mesh         = "true"
+    imu          = "false"
+    visualize    = "false"
+    gpu          = "true">
+    <origin xyz="0.0 0.0 0.0365" rpy="0.0 0.0 0.0"/>
+  </xacro:OS1-128>
+
+</robot>

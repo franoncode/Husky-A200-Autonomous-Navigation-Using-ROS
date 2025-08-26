@@ -1,0 +1,7 @@
+<launch>
+
+  <node name="rosbag"
+      pkg="rosbag"
+      type="play"
+      args="/home/fran/Fran/record_20250707_120352.bag"/>
+</launch>
