@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/fran/catkin_ws/devel_isolated/ouster_gazebo_plugins/setup.sh

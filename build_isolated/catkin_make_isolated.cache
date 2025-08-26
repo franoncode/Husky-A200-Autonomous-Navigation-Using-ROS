@@ -1,0 +1,2 @@
+cartographer:cartographer_ros/cartographer_ros:cartographer_ros/cartographer_ros_msgs:cartographer_ros/cartographer_rviz:husky/husky_control:husky/husky_custom_navigation:husky/husky_description:husky/husky_desktop:husky/husky_gazebo:husky/husky_msgs:husky/husky_navigation:husky/husky_simulator:husky/husky_viz:ouster-gazebo-simulation/ouster_gazebo_plugins:ouster-gazebo-simulation/ouster_os1_64:ouster_description/ouster_description
+-G Unix Makefiles -DCATKIN_DEVEL_PREFIX=/home/fran/catkin_ws/devel_isolated -DCMAKE_INSTALL_PREFIX=/home/fran/catkin_ws/install_isolated

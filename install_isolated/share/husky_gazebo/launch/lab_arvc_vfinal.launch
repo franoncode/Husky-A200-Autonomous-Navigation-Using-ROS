@@ -1,0 +1,21 @@
+<launch>
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find husky_gazebo)/worlds/lab_arvc_vfinal.world"/>
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui" value="true"/>
+    <arg name="headless" value="false"/>
+    <arg name="debug" value="false"/>
+  </include>
+
+  <include file="$(find husky_gazebo)/launch/spawn_husky.launch" />
+
+  <arg name="urdf_extras" default="$(find husky_description)/urdf/husky_ouster.urdf.xacro"/>
+  <param name="robot_description"
+         command="$(find xacro)/xacro '$(find husky_description)/urdf/husky.urdf.xacro'
+           imu_parent:=top_plate_link
+           imu_xyz:='0.0 0.0 0.10'
+           imu_rpy:='0 0 0'
+           urdf_extras:='$(arg urdf_extras)'
+         " />
+</launch>

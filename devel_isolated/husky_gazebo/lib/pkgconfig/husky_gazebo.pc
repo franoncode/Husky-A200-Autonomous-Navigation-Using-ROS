@@ -1,0 +1,8 @@
+prefix=/home/fran/catkin_ws/devel_isolated/husky_gazebo
+
+Name: husky_gazebo
+Description: Description of husky_gazebo
+Version: 0.6.10
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

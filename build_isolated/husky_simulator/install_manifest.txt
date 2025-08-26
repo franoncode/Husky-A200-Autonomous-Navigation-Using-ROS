@@ -1,0 +1,10 @@
+/home/fran/catkin_ws/install_isolated/_setup_util.py
+/home/fran/catkin_ws/install_isolated/env.sh
+/home/fran/catkin_ws/install_isolated/setup.bash
+/home/fran/catkin_ws/install_isolated/local_setup.bash
+/home/fran/catkin_ws/install_isolated/setup.sh
+/home/fran/catkin_ws/install_isolated/local_setup.sh
+/home/fran/catkin_ws/install_isolated/setup.zsh
+/home/fran/catkin_ws/install_isolated/local_setup.zsh
+/home/fran/catkin_ws/install_isolated/.rosinstall
+/home/fran/catkin_ws/install_isolated/share/husky_simulator/package.xml

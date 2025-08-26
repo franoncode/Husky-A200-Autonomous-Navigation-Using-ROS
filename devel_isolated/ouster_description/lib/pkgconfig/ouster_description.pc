@@ -1,0 +1,8 @@
+prefix=/home/fran/catkin_ws/devel_isolated/ouster_description
+
+Name: ouster_description
+Description: Description of ouster_description
+Version: 1.0.7
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

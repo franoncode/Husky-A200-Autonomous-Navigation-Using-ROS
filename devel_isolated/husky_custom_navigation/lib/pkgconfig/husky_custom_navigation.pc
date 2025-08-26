@@ -1,0 +1,8 @@
+prefix=/home/fran/catkin_ws/devel_isolated/husky_custom_navigation
+
+Name: husky_custom_navigation
+Description: Description of husky_custom_navigation
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

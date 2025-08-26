@@ -1,0 +1,16 @@
+/home/fran/catkin_ws/install_isolated/_setup_util.py
+/home/fran/catkin_ws/install_isolated/env.sh
+/home/fran/catkin_ws/install_isolated/setup.bash
+/home/fran/catkin_ws/install_isolated/local_setup.bash
+/home/fran/catkin_ws/install_isolated/setup.sh
+/home/fran/catkin_ws/install_isolated/local_setup.sh
+/home/fran/catkin_ws/install_isolated/setup.zsh
+/home/fran/catkin_ws/install_isolated/local_setup.zsh
+/home/fran/catkin_ws/install_isolated/.rosinstall
+/home/fran/catkin_ws/install_isolated/lib/pkgconfig/ouster_gazebo_plugins.pc
+/home/fran/catkin_ws/install_isolated/share/ouster_gazebo_plugins/cmake/ouster_gazebo_pluginsConfig.cmake
+/home/fran/catkin_ws/install_isolated/share/ouster_gazebo_plugins/cmake/ouster_gazebo_pluginsConfig-version.cmake
+/home/fran/catkin_ws/install_isolated/share/ouster_gazebo_plugins/package.xml
+/home/fran/catkin_ws/install_isolated/lib/libgazebo_ros_ouster_laser.so
+/home/fran/catkin_ws/install_isolated/lib/libgazebo_ros_ouster_gpu_laser.so
+/home/fran/catkin_ws/install_isolated/include/ouster_gazebo_plugins/GazeboRosOusterLaser.h
